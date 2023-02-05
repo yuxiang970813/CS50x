@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: sort 1 is slow when sorting random.txt and reversed.txt(worse case), but very fast when sorting sorted.txt(best case).
+
+sort2 uses: Merge Sort
+
+How do you know?: sort2 is the fastest.
+
+sort3 uses: Selection Sort
+
+How do you know?: Even in the best case(sorted.txt), sort3 still very slow.

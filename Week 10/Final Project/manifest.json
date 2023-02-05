@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Colour Vision Deficiency Glasses Clone",
+    "version": "1.0",
+    "description": "A filter to alleviate colour vision deficiency.",
+    "icons": {
+        "16": "img/icon-16.png",
+        "32": "img/icon-32.png",
+        "48": "img/icon-48.png",
+        "128": "img/icon-128.png"
+    },
+    "action": {
+        "default_title": "Colour Vision Deficiency Glasses Clone",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+        }
+    ]
+}
